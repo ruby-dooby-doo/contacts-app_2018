@@ -6,4 +6,5 @@ json.phone_number @contact.phone_number
 json.formatted do
   json.friendly_updated_at @contact.friendly_updated_at
   json.full_name @contact.full_name
+  json.japanese_country_code @contact.japanese_country_code
 end
