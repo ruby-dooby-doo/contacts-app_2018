@@ -10,3 +10,4 @@ json.formatted do
   json.full_name contact.full_name
   json.japanese_country_code contact.japanese_country_code
 end
+json.groups contact.groups
